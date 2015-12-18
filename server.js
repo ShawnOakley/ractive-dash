@@ -1,6 +1,6 @@
 var http = require('http');
 var child_process = require('child_process');
-var PORT = Number(oricess,argv[2]) || 8080;
+var PORT = Number(process.argv[2]) || 8080;
 
 var RE_BATTERY = /\/battery\/?/;
 
@@ -98,6 +98,7 @@ function processBatteryStdoutForMac(stdout) {
     return mapKeysForMac(battery);
 }
 
+console.log("Starting server")
 
 var server = http.createServer(function (request, response) {
 	var requestUrl = request.url;
