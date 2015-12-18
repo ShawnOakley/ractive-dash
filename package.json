@@ -1,0 +1,23 @@
+{
+  "name": "ractive-dash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShawnOakley/ractive-dash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShawnOakley/ractive-dash/issues"
+  },
+  "homepage": "https://github.com/ShawnOakley/ractive-dash#readme",
+  "devDependencies": {
+    "http": "0.0.0"
+  }
+}
